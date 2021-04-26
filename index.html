@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="assets/css/style.css"/>
+		<script src="assets/js/jquery-3.5.1.js" defer></script>
+		<script src="assets/js/advertising.js" defer></script>
+		<script src="assets/js/script.js" defer></script>
+		<title>Madiea's Shop</title>
+	</head>
+
+	<body>
+
+		<nav>
+			<h1>Madiea's Shop</h1>
+		</nav>
+
+		<section id="add">
+
+			<p>Mon contenus publicitaire</p>
+
+		</section>
+
+
+		<main>
+			
+			<div class="sidebar">
+
+				<p>CART</p>
+				<div id="panier"></div>
+				<br>
+				<form>
+					<p>CATEGORIES</p>
+			  		<input type="radio" id="all" name="shop" value="all" onclick="checkInputValue('all')">
+			  		<label for="all">All</label><br>
+
+			  		<input type="radio" id="men" name="shop" value="men" onclick="checkInputValue('men')">
+			  		<label for="men">Men clothing</label><br>
+
+			  		<input type="radio" id="women" name="shop" value="women" onclick="checkInputValue('women')">
+			  		<label for="women">Women clothing</label><br>
+
+			  		<input type="radio" id="jewelery" name="shop" value="jewelery" onclick="checkInputValue('jewelery')">
+			  		<label for="jewelery">Jewelery</label><br>
+
+			  		<input type="radio" id="electronics" name="shop" value="electronics" onclick="checkInputValue('electronics')">
+			  		<label for="electronics">Electronics</label><br>
+				</form>
+				<br>
+				<p>PRICE</p>
+
+			</div>
+
+			<section id="articles"></section>
+		</main>
+		<div id="ancre"> <img src="assets/css/arrowup.png"> </div>
+	</body>
+
+</html>
